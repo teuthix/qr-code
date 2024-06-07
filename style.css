@@ -1,0 +1,22 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    display: flex; 
+    flex-direction: column;
+  }
+  
+/* .white-box {
+    background-color: hsl(0, 0%, 100%);
+    width: 30%;
+    align-items: center;
+} */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
