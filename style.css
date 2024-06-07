@@ -1,5 +1,10 @@
-body {
+html, body {
     background-color: hsl(212, 45%, 89%);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
@@ -8,14 +13,14 @@ p {
 
 img {
     border-radius: 4%;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
     display: flex; 
     flex-direction: column;
-    margin-top: 12%;
-
-    /* margin: auto; */
+    margin: auto;
     background-color: hsl(0, 0%, 100%);
     padding: 18px;
     width: 80%;
@@ -27,11 +32,6 @@ img {
     margin-right: 30px;
     text-align: center;
 }
-
-/* .center-page {
-    display: inline;
-    vertical-align: middle;
-} */
 
 .attribution { 
     font-size: 11px; 
@@ -69,7 +69,7 @@ img {
         margin: auto;
         background-color: hsl(0, 0%, 100%);
         padding: 18px;
-        width: 20%;
+        width: 50%;
         border-radius: 4%;
     }
   }
