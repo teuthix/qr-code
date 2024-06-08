@@ -9,6 +9,7 @@ html, body {
 
 p {
     color: hsl(220, 15%, 55%);
+    font-size: 15px;
 }
 
 img {
@@ -44,17 +45,21 @@ img {
     color: hsl(228, 45%, 44%); 
 }
 
-.lato-regular {
-    font-family: "Lato", sans-serif;
+.outfit-header {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .outfit-text {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
   }
   
-  .lato-black {
-    font-family: "Lato", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
+  
   
   @media all and (min-width: 800px) {
     .container {
