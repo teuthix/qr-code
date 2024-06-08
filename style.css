@@ -9,11 +9,11 @@ html, body {
 
 p {
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 img {
-    border-radius: 4%;
+    border-radius: 12px;
     max-width: 100%;
     height: auto;
     margin-bottom: 12px;
@@ -29,9 +29,10 @@ h1 {
     flex-direction: column;
     margin: auto;
     background-color: hsl(0, 0%, 100%);
-    padding: 15px;
-    width: 77%;
-    border-radius: 4%;
+    padding: 1rem;
+    margin: 1rem;
+    width: 18rem;
+    border-radius: 18px;
 }
 
 .qr-text {
@@ -67,7 +68,7 @@ h1 {
   
   
   
-  @media all and (min-width: 800px) {
+  /* @media all and (min-width: 800px) {
     .container {
         width: 44%;
     }
@@ -80,4 +81,4 @@ h1 {
     h1 {
         font-size: 20px;
     }
-  }
+  } */
